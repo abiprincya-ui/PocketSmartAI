@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PocketSmartAI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>💰 PocketSmartAI</h1>
+
+        <p class="subtitle">
+            Your Smart Budget & Recommendation Assistant
+        </p>
+
+        <div class="categories">
+
+            <button onclick="showForm('home')">
+                🏠 Home Interior
+            </button>
+
+            <button onclick="showForm('party')">
+                🎉 Party Planning
+            </button>
+
+            <button onclick="showForm('jewelry')">
+                💎 Jewelry Recommendation
+            </button>
+
+        </div>
+
+
+        <div id="form-area">
+
+            <h2>Choose a category</h2>
+
+            <p>
+                Select Home Interior, Party Planning or Jewelry Recommendation
+                to get started.
+            </p>
+
+        </div>
+
+
+        <div id="result"></div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
